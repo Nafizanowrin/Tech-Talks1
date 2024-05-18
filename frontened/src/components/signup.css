@@ -1,0 +1,48 @@
+.reg h2 {
+    font-family: "Dancing Script", cursive;
+}
+
+.reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .reg-form {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .reg-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .reg-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .reg-form button {
+    margin-left: 2px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(16, 16, 75);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reg-form button:hover {
+    background-color: #0056b3;
+  }
+  

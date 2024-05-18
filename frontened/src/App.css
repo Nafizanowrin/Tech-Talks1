@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Macondo&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poor+Story&family=Protest+Riot&family=Protest+Strike&display=swap');
+
+body{
+  background: url("../images/tech.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.icon{
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+h1{
+  color: aliceblue;
+  font-family: "Macondo", cursive;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.search-sec img{
+ 
+  width: 150px;
+}
+
+.search-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.loader {
+  color: white;
+  }
+
+
+.search{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input{
+  border-radius: 40px;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+}
+
+.pagination-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+
+.pagination-btn .prev {
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: white;
+}
+
+.pagination-btn .next  {
+  padding: 10px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: white;
+}
+
+.pagination-btn p{
+  color: white;
+}
+
+@media (max-width:1050px) {
+  
+  .card-container{
+    margin-left: 45px;
+  }
+}
+
+@media (max-width:700px) {
+  
+  .card-container{
+    margin-left: 20px;
+  }
+}
+
+@media (max-width:430px) {
+  
+  .card-container{
+    margin-left: 20px;
+    height: 290px;
+  }
+  .card-container h2{
+    margin-left: 20px;
+  }
+
+  .card-container p{
+    margin-left: 20px;
+  }
+  .card-btn{
+    margin-left: 20px;
+  }
+}

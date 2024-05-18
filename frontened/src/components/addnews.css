@@ -1,0 +1,124 @@
+.addnews h1{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.addnews h3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+  
+.button-container {
+    display: flex;
+    /* align-items: center;
+    justify-content: space-evenly; */
+  }
+
+
+  .news-card-container{
+     background: rgba(255, 255, 255, 0.2);
+     border-radius: 16px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     backdrop-filter: blur(5px);
+     -webkit-backdrop-filter: blur(5px);
+     border: 1px solid rgba(255, 255, 255, 0.3);
+     width: 90%;
+     height:auto;
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+     margin-left: 80px;
+     margin-bottom: 50px;
+  }
+
+  .news-card-container h3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: "Dancing Script", cursive;;
+  }
+  
+
+.news-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }  
+
+
+input[type="text"],
+textarea {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+.news-card-container h4{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+.news-card-container p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+button {
+width: 10%;
+  padding: 10px 20px;
+  background-color: white;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+/* button:hover {
+  background-color: #0056b3;
+} */
+
+
+@media(max-width:768px){
+    .news-card-container{
+        margin-left: 20px;
+    }
+
+    input[type="text"],
+textarea {
+  width: 80%;
+}
+
+    button {
+        width: 30%;
+        margin-left: 10px;
+    }
+}
