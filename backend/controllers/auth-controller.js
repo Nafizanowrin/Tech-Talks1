@@ -78,4 +78,5 @@ const login = async (req, res) => {
     }
 };
 
+
 module.exports = { home, register, login };
